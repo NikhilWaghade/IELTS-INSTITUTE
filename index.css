@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+@import "tailwindcss";
+@import "tw-animate-css"; */
+
+
+@keyframes text {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 200px;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+@keyframes textReverse {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: -200px;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
